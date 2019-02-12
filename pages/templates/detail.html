@@ -1,0 +1,13 @@
+{%extends "base.html" %}
+    
+    {%block header%}
+        Detail
+    {% endblock header %}
+
+    {% block content %} 
+        <ul>
+            <li>{{pages.title}}</li>
+            <li>{{pages.content}}</li>
+            <li>{{pages.last_update}}</li>
+        </ul>
+    {% endblock content %}
